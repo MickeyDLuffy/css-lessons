@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    margin: 0;
+
+}
+.container {
+    background-color: #23424A;
+}
+.container--inner {
+    padding: 5rem 7rem;
+    width: 60%;
+    max-width: 700px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+}
+p {
+    padding-bottom: 3rem;
+}
+
+p , h1{
+    color: #FFFFFF;
+}
+h1, .btn--learn, p {
+    font-style: normal;
+    font-family: Roboto;
+    line-height: 2rem;
+}
+
+.btn--learn {
+    background: #38CFD9;
+    border-radius: 2rem;
+    padding: .7em 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    line-height: 150.19%;
+    letter-spacing: .05em;
+    transition: background 1s ease;
+}
+.btn--learn:hover {
+    background: rgb(73, 214, 149);
+}
